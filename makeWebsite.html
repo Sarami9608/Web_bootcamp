@@ -1,0 +1,177 @@
+<!-- html5 버전에서 코드를 작성한 html 파일임을 읽는 브라우저를 알려주는  -->
+<!DOCTYPE html>
+
+<!-- 실제로 html 시작 -->
+<!-- opening -1  -->
+<!-- lnag -- language  -->
+<html lang="en">
+
+    <!-- head 
+        웹사이트에 관한 중요한 정보가 있는 장소 - user에게는 보이지 않는 
+        렌더링에 도움이 되는 정보는 포함되지만 텍스트나 이미지 같은콘텐츠는 포함되지 않는 공간
+    -->
+
+    <head>
+        <!-- meta tag  - charset
+            웹 사이트에서 사용하는 글자가 올바르게 표시되도록 보장하는 태그
+        -->
+        <meta charset="UTF-8">
+        <!-- title 태그
+            웹사이트 제목 부분에 해당
+        -->
+        <title>YOUNG's Personal Site👍</title>
+    </head>
+
+    <!-- body tag
+        웹사이트에 있는 모든 콘텐츠가 포함되는 장소
+        예를 들어 텍스트, 타이틀, 이미지, 링크,html로 할 수 있는 모든 것
+    -->
+
+    <body>
+        <!-- 이미지 태그 
+            <img src="">
+            img -> html element
+            src="" -> html attribute --------이미지가 있는 주소를 입력
+                1) 인터넷 주소를 통해 하는 경우 - 해당 주소 서버로 핑을 통해 사진을 얻는다. - download 허가를 받은 경우 데이터를 받아
+                    원하는 웹사이트에서 이미지를 표시할 수 있게 됨
+                2) 직접 local 저장소에서 가져 오는 경우
+                    a) 같은 디렉토리에 존재하는 경우
+                    b) 하위 디렉토리에 존재하는 경우
+            alt----- 이미지 파일에 대한 설명하는 텍스트를 보여주는 경우 (렌더링에 실패) . alternation
+            <img src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/118553069_933704303795301_2104169193262946695_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=ggK9PWZzCxYAX8OO_GH&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAStuEfCkInCG-hq20qGrxsJP1Mo4koTcRWstv9b-hKEw&oe=63F94764&_nc_sid=8fd12b" alt="youngjae">
+        -->
+        <table>
+            <tr>
+                <td>
+                    <img src="./picture/증명사진.jpg" alt="youngjae" width="150" height="200">
+                </td>
+                <td>
+                    <!-- 콘텐츠가 포함되는 장소 -->
+                    <h1>LEE YOUNG JAE</h1>
+                    <!-- paragraph 태그 -->
+                    <br>
+                    <table>
+                        <tr>
+                            <th colspan="2">Contact</th>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <span>github link : </span>
+                            </td>
+                            <td>
+                                <!--  하이터링크 태그 <a href="링크 도착지"></a>
+                                    a -> html element
+                                    href -> html attribute
+                                    링크 도착지 -> "http://..." 형태로 된 사이트 주소를 입력
+                                -->
+                                <a href="https://github.com/Sarami9608">https://github.com/Sarami9608</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <span>e-mail : </span>
+                            </td>
+                            <td>
+                                <span>youngjae@gmail.com</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                                <span>e-mail : </span>
+                            </td>
+                            <td>
+                                <span>dudwo1220@naver.com</span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+        </table>
+
+        <p>
+            <!-- 스타일로 기울이기만 -->
+            <!-- <i> 프론트와 백엔드 공부중인 <strong>개발자</strong>가 되고 싶은 취준생</i> -->
+            <!-- <br> -->
+            <!-- 강조하기 위한 태그  기울이기 -->
+            <em> 프론트와 백엔드 공부 중인 <strong>개발자</strong>가 되고 싶은 취준생</em>
+
+            <!-- 들여쓰기 -->
+        </p>
+        <p>
+            지금은 파이썬으로 기본적인 공부와 web bootcamp를 통해 공부를 하고 있습니다.
+        </p>
+        <hr>
+        <h3>학력</h3>
+            <!-- bullet list item -->
+            <!-- ul -> 순서가 중요하지 않은 목록 리스트 -->
+            <ul>
+                <li>강화고등학교 졸업</li>
+                <li>서울과학기술대학교 전기정보공학과 졸업</li>
+                <li>스마트인재개발원 수료</li>
+                <li>etc. udemy : web bootcamp / python 강의 </li>
+            </ul>
+        <hr>    
+        <!--같은   directory에 있는 html 웹페이지로 이동하는 경우 -->
+            <a href="project.html"> My projects</a>
+        <hr>
+        
+        <h3>Skills</h3>
+        <!-- cellspacing -> table의 각 셀의 공간을 n 픽셀만큼 여유를 줌 -->
+        <table cellspacing="10">
+            <tr>
+                <!-- 스킬 -->
+                <th>
+                    Java
+                </th>
+                <!-- 잘하는 정도 -->
+                <td>
+                    ⭐⭐⭐
+                </td>
+                <!-- 스킬 -->
+                <th>
+                    python
+                </th>
+                <!-- 잘하는 정도 -->
+                <td>
+                    ⭐⭐⭐
+                </td>
+            </tr>
+            <tr>
+                <!-- 스킬 -->
+                <th>
+                    CSS
+                </th>
+                <!-- 잘하는 정도 -->
+                <td>
+                    ⭐⭐
+                </td>
+                <!-- 스킬 -->
+                <th>
+                    html
+                </th>
+                <!-- 잘하는 정도 -->
+                <td>
+                    ⭐⭐
+                </td>
+            </tr>
+
+        </table>
+        <hr>
+
+        <h3>되고 싶은 나</h3>
+
+        <hr>
+        <table>
+            <tr>
+                <td>
+                    <a href="contact.html">Message</a>
+                </td>
+            </tr>
+
+        </table>
+        
+    </body>
+
+</html>
+<!-- html closing -1 -->
