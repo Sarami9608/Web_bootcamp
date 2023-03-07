@@ -1,0 +1,19 @@
+ /* 태그명 {할 작업을 입력} */
+body {
+    background-color: #c7d0e2;
+
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color : rgb(88, 83, 83);
+    border-width: 7px;
+    /* %로 할 경우 화면에 보여주는 길이를 기준으로 */
+    width: 10%; 
+}
+h1{
+    color: #5c1659;
+}
+h3{
+    color: #710f6e;
+}
