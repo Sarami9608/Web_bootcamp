@@ -17,3 +17,25 @@ h1{
 h3{
     color: #710f6e;
 }
+/* css코드 디버깅 하는 법
+
+웹 개발자 크롬을 사용하는 이유??
+크롬 Developer tool 들어간다.
+그리고 검사~~ F12를 통해서도 볼 수 있따.
+
+원하는 부분을 찾아서 console파트로 들어가 문제점을 파악
+
+css 정의를 할 때 우선순위가 존재
+
+element.style
+inline style
+external style
+
+
+
+
+
+
+
+
+*/
